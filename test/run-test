@@ -1,0 +1,9 @@
+export HAS_HEADER=1
+cat test/header.json test/file.js | node test/test.js
+
+export HAS_HEADER=''
+node test/test.js < test/file.js
+
+
+
+

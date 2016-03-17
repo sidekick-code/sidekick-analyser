@@ -1,0 +1,32 @@
+{
+  "name": "@sidekick/analyser-common",
+  "version": "1.0.0",
+  "description": "Handles input for analysers. Also defines the protocol which other programs can follow - no dependencies on JS",
+  "main": "index.js",
+  "files": [
+    "README.md",
+    "index.js"
+  ],
+  "keywords": [
+    "javascript",
+    "code",
+    "quality",
+    "dependencies"
+  ],
+  "homepage": "https://sidekickcode.com",
+  "bugs": {
+    "url": "https://github.com/sidekickcode/sidekick-analyser/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sidekickcode/sidekick-analyser.git"
+  },
+  "author": "We Are Sidekick Ltd.",
+  "scripts": {
+    "test": "test/run-test"
+  },
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "easy-stdin": "^1.0.1"
+  }
+}
