@@ -1,6 +1,6 @@
 {
   "name": "@sidekick/analyser-common",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Handles input for analysers. Also defines the protocol which other programs can follow - no dependencies on JS",
   "main": "index.js",
   "files": [
@@ -25,7 +25,7 @@
   "scripts": {
     "test": "test/run-test"
   },
-  "license": "AGPL-3.0",
+  "license": "MIT",
   "dependencies": {
     "easy-stdin": "^1.0.1"
   }
