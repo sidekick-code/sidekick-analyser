@@ -1,6 +1,6 @@
 {
   "name": "@sidekick/analyser-common",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Handles input for analysers. Also defines the protocol which other programs can follow - no dependencies on JS",
   "main": "index.js",
   "files": [
@@ -15,11 +15,11 @@
   ],
   "homepage": "https://sidekickcode.com",
   "bugs": {
-    "url": "https://github.com/sidekickcode/sidekick-analyser/issues"
+    "url": "https://github.com/sidekickcode/analyser-common/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sidekickcode/sidekick-analyser.git"
+    "url": "https://github.com/sidekickcode/analyser-common.git"
   },
   "author": "We Are Sidekick Ltd.",
   "scripts": {
