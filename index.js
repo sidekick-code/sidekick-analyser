@@ -1,6 +1,7 @@
 "use strict";
 
 var stdin = require("easy-stdin");
+var debug = require('debug')('analyser-common');
 
 module.exports = exports = run;
 
@@ -12,6 +13,7 @@ function run(cb) {
 
     try {
       var parsed = parse(input);
+      debug('parsed input: ' + JSON.stringify(parsed));
     } catch(e) {
       return fail(e);
     }
